@@ -653,5 +653,23 @@ footer {
   box-shadow: 0 4px 20px rgba(255, 106, 0, 0.3);
 }
 
+#language-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  padding: 10px 16px;
+  background-color: #0f0f0f; /* koyu tema uyumlu */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+#language-btn:hover {
+  background-color: #1e1e1e;
+}
 
 
