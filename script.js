@@ -138,7 +138,12 @@ function switchLanguage() {
 
     document.getElementById("cert10-title").innerText = "JavaScript";
     document.getElementById("cert10-link").innerText = "View Certificate";
+
+    //CONTACT ENGLISH
+    document.getElementById("iletisim-baslik").innerText = "Contact";
+
     isTurkish = false;
+
   } else {
     // NAVBAR TÜRKÇE
     document.getElementById("nav-hakkimda").innerText = "Hakkımda";
@@ -255,6 +260,9 @@ function switchLanguage() {
 
     document.getElementById("cert10-title").innerText = "JavaScript";
     document.getElementById("cert10-link").innerText = "Sertifikayı Gör";
+
+    //CONTACT TÜRKÇE
+    document.getElementById("iletisim-baslik").innerText = "İletişim";
 
 
   isTurkish = true;
