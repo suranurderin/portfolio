@@ -72,17 +72,26 @@ nav {
 }
 
 /* Hamburger menü */
+/* Masaüstü görünüm için hamburger menüyü gizle */
 .hamburger {
+  display: none; 
   position: absolute;
   right: 20px;
   top: 50%;
   transform: translateY(-50%);
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  z-index: 100;
 }
 
 
 .hamburger .line {
   width: 25px;
   height: 2px;
+   background-color: white;
   transition: all 0.3s ease;
 }
 
