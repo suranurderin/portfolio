@@ -1,3 +1,23 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const hamburger = document.getElementById("hamburger");
+  const navLinks = document.getElementById("navLinks");
+  const navItems = document.querySelectorAll(".nav-link");
+
+  // Hamburger menüye tıklanınca aç/kapat
+  hamburger.addEventListener("click", function () {
+    hamburger.classList.toggle("active");
+    navLinks.classList.toggle("active");
+  });
+
+  // Her bir menü bağlantısına tıklanınca menüyü kapat
+  navItems.forEach(function (item) {
+    item.addEventListener("click", function () {
+      hamburger.classList.remove("active");
+      navLinks.classList.remove("active");
+    });
+  });
+});
+
 let isTurkish = true;
 
 function switchLanguage() {
