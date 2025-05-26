@@ -213,7 +213,7 @@ function switchLanguage() {
   document.getElementById("project1-title").innerText = "Anka Diriliş Projesi";
   document.getElementById("project1-desc").innerText = "Toplumsal farkındalık odaklı sosyal medya projesi.";
 
-  document.getElementById("project2-title").innerText = "Metin Mdenciliği";
+  document.getElementById("project2-title").innerText = "Metin Madenciliği";
   document.getElementById("project2-desc").innerText = "Metin madenciliği ve doğal dil işleme projesi.";
 
   document.getElementById("project3-title").innerText = "Yılan Oyunu";
