@@ -49,6 +49,7 @@ function switchLanguage() {
   document.getElementById("skills-title").innerText = "My Skills";
 
     document.getElementById("level-python").innerText = "Advanced";
+    document.getElementById("level-r").innerText = "Advanced";
     document.getElementById("level-spss").innerText = "Advanced";
     document.getElementById("level-sql").innerText = "Advanced";
     document.getElementById("level-excel").innerText = "Advanced";
@@ -60,7 +61,7 @@ function switchLanguage() {
     document.getElementById("level-csharp").innerText = "Beginner";
 
     document.getElementById("skill-english").innerText = "English";
-
+    document.getElementById("skill-r").innerText = "R Programming";
     // EDUCATION ENGLISH 
     document.getElementById("education-title").innerText = "Education";
 
@@ -172,6 +173,7 @@ function switchLanguage() {
     document.getElementById("skills-title").innerText = "Yeteneklerim";
 
     document.getElementById("level-python").innerText = "İleri";
+    document.getElementById("level-r").innerText = "İleri";
     document.getElementById("level-spss").innerText = "İleri";
     document.getElementById("level-sql").innerText = "İleri";
     document.getElementById("level-excel").innerText = "İleri";
@@ -183,6 +185,7 @@ function switchLanguage() {
     document.getElementById("level-csharp").innerText = "Başlangıç";
 
     document.getElementById("skill-english").innerText = "İngilizce";
+    document.getElementById("skill-r").innerText = "R Programlama";
 
     // EDUCATION TÜRKÇE
     document.getElementById("education-title").innerText = "Eğitimlerim";
