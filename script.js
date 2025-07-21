@@ -58,6 +58,7 @@ function switchLanguage() {
     document.getElementById("level-js").innerText = "Intermediate";
     document.getElementById("level-tableau").innerText = "Intermediate";
     document.getElementById("level-english").innerText = "Intermediate";
+    document.getElementById("level-unity").innerText = "Intermediate";
     document.getElementById("level-csharp").innerText = "Beginner";
 
     document.getElementById("skill-english").innerText = "English";
