@@ -111,11 +111,14 @@ function switchLanguage() {
     document.getElementById("project5-title").innerText = "Word Analysis";
     document.getElementById("project5-desc").innerText = "A project on word frequency and sentiment analysis.";
 
-    document.getElementById("project6-title").innerText = "Image Sorter";
+    document.getElementById("project6-title").innerText = "Image Processing";
     document.getElementById("project6-desc").innerText = "Python app that categorizes images.";
 
-    document.getElementById("project9-title").innerText = "Video Processing";
-    document.getElementById("project9-desc").innerText = "Video frame capturing and processing project.";
+    document.getElementById("project9-title").innerText = "Audio Processing";
+    document.getElementById("project9-desc").innerText = "Voice processing automation.";
+
+    document.getElementById("project10-title").innerText = "Video Processing";
+    document.getElementById("project10-desc").innerText = "Video frame capturing and processing project.";
 
     // CERTIFICATE ENGLISH
     document.getElementById("certificates-title").innerText = "My Certificates";
@@ -248,8 +251,11 @@ function switchLanguage() {
   document.getElementById("project6-title").innerText = "Görüntü İşleme";
   document.getElementById("project6-desc").innerText = "Resimleri kategoriye göre ayıran Python uygulaması.";
 
-  document.getElementById("project9-title").innerText = "Video İşleme";
-  document.getElementById("project9-desc").innerText = "Videodan kare yakalama ve işleme projesi.";
+  document.getElementById("project9-title").innerText = "Ses İşleme";
+  document.getElementById("project9-desc").innerText = "Ses işleme otomasyonu.";
+
+  document.getElementById("project10-title").innerText = "Video İşleme";
+  document.getElementById("project10-desc").innerText = "Videodan kare yakalama ve işleme projesi.";
     
   // CERTIFICATE TÜRKÇE
     document.getElementById("certificates-title").innerText = "Sertifikalarım";
