@@ -93,6 +93,12 @@ function switchLanguage() {
     document.getElementById("project1-title").innerText = "Anka Resurrection Project";
     document.getElementById("project1-desc").innerText = "A social media project focused on social awareness.";
 
+    document.getElementById("project7-title").innerText = "Data Analysis with SPSS";
+    document.getElementById("project7-desc").innerText = "Data analysis project on Likert dataset.";
+
+    document.getElementById("project8-title").innerText = "Digital Maturity Analysis";
+    document.getElementById("project8-desc").innerText = "Digital maturity analysis project on a company.";
+
     document.getElementById("project2-title").innerText = "Text Mining";
     document.getElementById("project2-desc").innerText = "Text mining and natural language processing project.";
 
@@ -107,6 +113,9 @@ function switchLanguage() {
 
     document.getElementById("project6-title").innerText = "Image Sorter";
     document.getElementById("project6-desc").innerText = "Python app that categorizes images.";
+
+    document.getElementById("project9-title").innerText = "Video Processing";
+    document.getElementById("project9-desc").innerText = "Video frame capturing and processing project.";
 
     // CERTIFICATE ENGLISH
     document.getElementById("certificates-title").innerText = "My Certificates";
@@ -218,6 +227,12 @@ function switchLanguage() {
   document.getElementById("project1-title").innerText = "Anka Diriliş Projesi";
   document.getElementById("project1-desc").innerText = "Toplumsal farkındalık odaklı sosyal medya projesi.";
 
+  document.getElementById("project7-title").innerText = "SPSS ile Veri Analizi";
+  document.getElementById("project7-desc").innerText = "Likert veri setinde veri analizi projesi.";
+    
+  document.getElementById("project8-title").innerText = "Dijital Olgunluk Analizi";
+  document.getElementById("project8-desc").innerText = "Bir şirket üzerine dijital olgunluk analiz projesi.";
+
   document.getElementById("project2-title").innerText = "Metin Madenciliği";
   document.getElementById("project2-desc").innerText = "Metin madenciliği ve doğal dil işleme projesi.";
 
@@ -232,6 +247,9 @@ function switchLanguage() {
 
   document.getElementById("project6-title").innerText = "Görüntü İşleme";
   document.getElementById("project6-desc").innerText = "Resimleri kategoriye göre ayıran Python uygulaması.";
+
+  document.getElementById("project9-title").innerText = "Video İşleme";
+  document.getElementById("project9-desc").innerText = "Videodan kare yakalama ve işleme projesi.";
     
   // CERTIFICATE TÜRKÇE
     document.getElementById("certificates-title").innerText = "Sertifikalarım";
