@@ -183,6 +183,7 @@ function switchLanguage() {
     document.getElementById("level-js").innerText = "Orta";
     document.getElementById("level-tableau").innerText = "Orta";
     document.getElementById("level-english").innerText = "Orta";
+    document.getElementById("level-unity").innerText = "Orta";
     document.getElementById("level-csharp").innerText = "Başlangıç";
 
     document.getElementById("skill-english").innerText = "İngilizce";
