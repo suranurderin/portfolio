@@ -49,20 +49,20 @@ function switchLanguage() {
   document.getElementById("skills-title").innerText = "My Skills";
 
     document.getElementById("level-python").innerText = "Advanced";
-    document.getElementById("level-r").innerText = "Advanced";
-    document.getElementById("level-spss").innerText = "Advanced";
-    document.getElementById("level-sql").innerText = "Advanced";
     document.getElementById("level-excel").innerText = "Advanced";
-    document.getElementById("level-html").innerText = "Intermediate-Advanced";
-    document.getElementById("level-css").innerText = "Intermediate-Advanced";
-    document.getElementById("level-js").innerText = "Intermediate";
-    document.getElementById("level-tableau").innerText = "Intermediate";
+    document.getElementById("level-html").innerText = "Advanced";
+    document.getElementById("level-css").innerText = "Advanced";
+    document.getElementById("level-js").innerText = "Intermediate-Advanced";
+    document.getElementById("level-unity").innerText = "Intermediate-Advanced";
+    document.getElementById("level-csharp").innerText = "Intermediate-Advanced";
+    document.getElementById("level-r").innerText = "Intermediate";
+    document.getElementById("level-sql").innerText = "Intermediate";
     document.getElementById("level-english").innerText = "Intermediate";
-    document.getElementById("level-unity").innerText = "Intermediate";
-    document.getElementById("level-csharp").innerText = "Beginner";
-
+    document.getElementById("level-spss").innerText = "Beginner";
+    document.getElementById("level-tableau").innerText = "Beginner";
+    
     document.getElementById("skill-english").innerText = "English";
-    document.getElementById("skill-r").innerText = "R Programming";
+    document.getElementById("skill-r").innerText = "R Programming"
     // EDUCATION ENGLISH 
     document.getElementById("education-title").innerText = "Education";
 
@@ -186,18 +186,18 @@ function switchLanguage() {
     document.getElementById("skills-title").innerText = "Yeteneklerim";
 
     document.getElementById("level-python").innerText = "İleri";
-    document.getElementById("level-r").innerText = "İleri";
-    document.getElementById("level-spss").innerText = "İleri";
-    document.getElementById("level-sql").innerText = "İleri";
     document.getElementById("level-excel").innerText = "İleri";
-    document.getElementById("level-html").innerText = "Orta-İleri";
-    document.getElementById("level-css").innerText = "Orta-İleri";
-    document.getElementById("level-js").innerText = "Orta";
-    document.getElementById("level-tableau").innerText = "Orta";
+    document.getElementById("level-html").innerText = "İleri";
+    document.getElementById("level-css").innerText = "İleri";
+    document.getElementById("level-js").innerText = "Orta-İleri";
+    document.getElementById("level-unity").innerText = "Orta-İleri";
+    document.getElementById("level-csharp").innerText = "Orta-İleri";
+    document.getElementById("level-r").innerText = "Orta";
+    document.getElementById("level-sql").innerText = "Orta";
     document.getElementById("level-english").innerText = "Orta";
-    document.getElementById("level-unity").innerText = "Orta";
-    document.getElementById("level-csharp").innerText = "Başlangıç";
-
+    document.getElementById("level-spss").innerText = "Başlangıç";
+    document.getElementById("level-tableau").innerText = "Başlangıç";
+    
     document.getElementById("skill-english").innerText = "İngilizce";
     document.getElementById("skill-r").innerText = "R Programlama";
 
